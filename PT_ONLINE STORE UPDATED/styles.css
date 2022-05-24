@@ -1,0 +1,80 @@
+
+.navbar{
+     display: flex;
+     align-items: center;
+     padding: 5px;
+}
+nav{
+     flex: 1;
+     text-align: right;
+}
+nav ul{
+     display: inline-block;
+     list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;}
+a{
+    text-decoration: none;
+    color: #3f37c9;
+    font-family: Trebuchet MS;
+    font-size: 150%; 
+}
+body {
+  background-color: #bee1e6;
+  background-image: url(Pictures/Music%20notes.png);
+  background-repeat: no-repeat;  
+  background-size: 100% 100%;
+}
+h1 {text-align:center;
+  color: midnightblue;
+  font-family: verdana;
+  font-size: 400%;}
+h2 {text-align:center;
+  color: #faa307;
+ font-family: verdana;
+  font-size: 300%;
+}
+p {text-align:center;
+   color: #9d0208;
+  font-family: Trebuchet MS;
+  font-size: 150%;
+}
+.dropbtn {
+  background-color: blue;
+  color: white;
+  font-family: verdana;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: darkblue;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.show {display:flex;}
